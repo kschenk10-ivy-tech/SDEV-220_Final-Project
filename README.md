@@ -7,8 +7,7 @@ SDEV220, Fall 2025<br>
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/kschenk10-ivy-tech/SDEV-220_Final-Project)  
 [![Trello Board](https://img.shields.io/badge/Trello-Board-blue)](https://trello.com/invite/b/67b7abfc18f18ce15b085bfb/ATTI33b20571a5d8fcfcf77f75b7131772531A707EB3/sdev-220)
 
----
-
+![Screenshot of Python Program](https://github.com/kschenk10-ivy-tech/SDEV-220_Final-Project/blob/main/Screenshot%202025-02-20%20204202.png?raw=true)
 ## Overview  
 This Python application is designed for Bath & Body Works customers to log and track their favorite fragrances by year and season. Users can create shopping lists linked to birthdays, holidays, and special occasions, organizing purchases by week, day, and year. The application provides a user-friendly interface to manage fragrance collections, organize shopping lists, and track preferences over time.
 
