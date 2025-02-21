@@ -1,0 +1,48 @@
+---
+config:
+  theme: mc
+---
+classDiagram
+    class Fragrance {
+        -String name
+        -String brand
+        -String season
+        -String status
+        +addFragrance()
+        +editFragrance()
+        +removeFragrance()
+    }
+
+    class ShoppingListItem {
+        -String itemName
+        -String category
+        -int quantity
+        +addItem()
+        +editItem()
+        +removeItem()
+    }
+
+    class FragranceManager {
+        -List~Fragrance~ fragrances
+        +loadFromJSON()
+        +saveToJSON()
+    }
+
+    class ShoppingListManager {
+        -List~ShoppingListItem~ items
+        +loadFromJSON()
+        +saveToJSON()
+    }
+
+    class GUI {
+        -FragranceManager fragranceManager
+        -ShoppingListManager shoppingListManager
+        +renderTabs()
+        +renderFragranceForm()
+        +renderShoppingListForm()
+    }
+
+    FragranceManager "1" --> "0..*" Fragrance : manages
+    ShoppingListManager "1" --> "0..*" ShoppingListItem : manages
+    GUI "1" --> "1" FragranceManager : uses
+    GUI "1" --> "1" ShoppingListManager : uses

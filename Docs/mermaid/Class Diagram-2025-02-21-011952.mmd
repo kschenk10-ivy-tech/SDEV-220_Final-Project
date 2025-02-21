@@ -1,0 +1,33 @@
+---
+config:
+  theme: dark
+---
+
+classDiagram
+    class FragranceManager {
+        +str fragrance_name
+        +int year
+        +str season
+        +str status
+        +add_fragrance()
+        +remove_fragrance()
+        +update_status()
+    }
+    class ShoppingListManager {
+        +str list_name
+        +int year
+        +str occasion
+        +list items
+        +create_list()
+        +edit_list()
+        +export_list()
+    }
+    class UserInterface {
+        +int current_year
+        +dict user_preferences
+        +display_menu()
+        +prompt_user()
+        +save_changes()
+    }
+    FragranceManager --> UserInterface : interacts with
+    ShoppingListManager --> UserInterface : interacts with

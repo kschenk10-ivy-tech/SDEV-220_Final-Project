@@ -1,22 +1,3 @@
-﻿Khristin Schenk
-February 20th, 2025
-SDEV-220
-Final Project
-
-# Python Application for Bath & Body Works Fragrances
-
-This user-friendly Python program was developed using Tkinter for the graphical user interface (GUI) and JSON for data storage, allowing users to manage their fragrance collections and shopping lists effectively. Key features include seasonal categorization, status labels, and event planning.
-
-### Approach
-
-1. **Data Model**: Use classes `Fragrance` and `ShoppingList` to represent individual entries. Manager classes (`FragranceManager`, `ShoppingListManager`) handle collections and persistence.
-2. **GUI**: Implement a Tkinter interface with tabs for fragrances and shopping lists. Users can add, remove, and update entries through forms.
-3. **Event Handling**: Automatically calculate ages and days until birthdays using Python's `datetime` module.
-4. **Data Persistence**: Save and load data using JSON files to maintain user data between sessions.
-
-## Python Code
-
-```python
 import tkinter as tk
 from tkinter import ttk, messagebox
 import json
@@ -498,13 +479,3 @@ class UserInterface:
 if __name__ == "__main__":
     app = UserInterface()
     app.run()
-```
-
-### Explanation
-
-- **Fragrance Management**: Users can add, remove, and update fragrances with details like name, year, season, and status. The data is saved to `fragrances.json`.
-- **Shopping Lists**: Users create lists for occasions like birthdays, providing person details and birthdates for automatic age calculation. Lists are saved to `shopping_lists.json`.
-- **GUI**: The interface uses Tkinter tabs for navigation. Input validation ensures data integrity.
-- **Event Handling**: Birthdays automatically calculate age and days until the next event using the `datetime` module
-
-> Written with [StackEdit](https://stackedit.io/).

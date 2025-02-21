@@ -1,0 +1,25 @@
+---
+config:
+  theme: dark
+---
+erDiagram
+    FRAGRANCE ||--o{ SHOPPING_LIST : "belongs to"
+    FRAGRANCE {
+        string fragrance_name
+        int year
+        string season
+        string status
+    }
+    SHOPPING_LIST {
+        string list_name
+        int year
+        string occasion
+        list items
+    }
+    USER ||--o{ FRAGRANCE : "manages"
+    USER ||--o{ SHOPPING_LIST : "manages"
+    USER {
+        string name
+        string email
+        dict preferences
+    }
