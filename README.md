@@ -1,13 +1,13 @@
-Khristin Schenk
-February 9, 2025
-SDEV220, Fall 2025
+Khristin Schenk<br>
+Last Updated: on February 20, 2025<br>
+SDEV220, Fall 2025<br>
 
 # Module 3: Final Project Launch
 [Link to Trello Board](https://trello.com/invite/b/67b7abfc18f18ce15b085bfb/ATTI33b20571a5d8fcfcf77f75b7131772531A707EB3/sdev-220)
 
 ### Python Application for: *Bath & Body Works*
 
-**Overview**  
+**Overview**<br>
 This Python application is designed for Bath & Body Works customers to log and track their favorite fragrances by year and season. Users can create shopping lists linked to birthdays, holidays, and special occasions, organizing purchases by week, day, and year.
 
 **Key Features**  
@@ -45,9 +45,7 @@ This Python application is designed for Bath & Body Works customers to log and t
   - Months Since Last Birthday: `=DATEDIF(A1, TODAY(), “YM”)`  
   - Days Until Next Birthday: `=DATEDIF(A1, TODAY(), “MD”)`  
   - Formatted Output: `=CONCAT(A2, " years, ", A3, " months, ", A4, " days ")`
-  ```  
- 
-  **To-Do:** Implement an Excel file that includes these formulas for birthday tracking.
+  ```
 
 - **Data Fields:**  
   - Year & Month – Organized by year, with individual months listed.  
