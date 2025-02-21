@@ -3,6 +3,7 @@ February 9, 2025
 SDEV220, Fall 2025
 
 # Module 3: Final Project Launch
+[Link to Trello Board](https://trello.com/invite/b/67b7abfc18f18ce15b085bfb/ATTI33b20571a5d8fcfcf77f75b7131772531A707EB3/sdev-220)
 
 ### Python Application for: *Bath & Body Works*
 
