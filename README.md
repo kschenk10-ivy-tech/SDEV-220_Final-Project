@@ -94,7 +94,7 @@ This Python application is designed for Bath & Body Works customers to log and t
 3. **Run the Application:**  
    Execute the main Python script to launch the application.  
    ```bash
-   python main.py
+   python FinalProject.py
    ```
 4. **Follow On-Screen Prompts:**  
    Use the intuitive interface to manage your fragrance collection and shopping lists.  
