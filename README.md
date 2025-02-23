@@ -1,5 +1,5 @@
 Khristin Schenk<br>
-Last Updated: on February 20, 2025<br>
+Last Updated: on February 23, 2025<br>
 SDEV220, Fall 2025<br>
 
 # Python Application for Bath & Body Works
